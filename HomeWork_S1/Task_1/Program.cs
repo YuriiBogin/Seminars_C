@@ -15,7 +15,14 @@ if (a>b)
 }
 else 
 {
+    if (a<b)
+    {
+        Console.WriteLine($"Большее число {b}, а меньшее число {a}");
+    }
+    else
+    {
+        Console.WriteLine("Чмсла одинаковые!");
+    }
     
-    Console.WriteLine($"Большее число {b}, а меньшее число {a}");
 
 }

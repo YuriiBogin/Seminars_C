@@ -9,17 +9,19 @@ int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
 int c = Convert.ToInt32(Console.ReadLine());
 
-if ((a>b) & (a>c))
+int m = a;
+
+if ((m == a) & (m == b) & (m ==c ))
 {
-    Console.WriteLine($"Большее число {a}");
+    Console.WriteLine($"Числа одинаковые");
 }
-else 
+else
 {
-if ((b>a) & (b>c))
+if (m < b) m = b;
+if (m < c) m = c;
+Console.WriteLine($"Большее число {m}");
+}
 
- Console.WriteLine($"Большее число {b}");
-
-    else
     
-    Console.WriteLine($"Большее число {c}");
-}
+  
+   
