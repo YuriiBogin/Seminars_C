@@ -23,5 +23,5 @@ Console.WriteLine($"Большее число {m}");
 }
 
     
-  
+
    
